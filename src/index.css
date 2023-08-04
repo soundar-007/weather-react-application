@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    rgba(211, 211, 211, 0.453),
+    rgba(110, 88, 95, 0.163)
+  );
+}
+.container {
+  width: 360px;
+  height: 450px;
+  background: linear-gradient(
+    to left,
+    rgba(149, 165, 190, 0.697),
+    rgba(0, 238, 255, 0.507)
+  );
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(101, 98, 98, 0.667);
+}
+.container .box-1 h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(98, 94, 94);
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 5px rgba(97, 79, 79, 0.544);
+}
+.container .box-1 input {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.box-2 {
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+  width: 280px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.city {
+  position: relative;
+  margin-bottom: 10px;
+}
+.city p {
+  color: rgb(127, 121, 121);
+  font-family: "Noto Sans Vithkuqi", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.city label {
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 8px;
+  color: gray;
+  right: 45%;
+  letter-spacing: 3px;
+}
+.degree-clouds {
+  padding: 10px 0px;
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+.degree-clouds .degree {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 30px;
+  font-weight: 100;
+}
+.degree-clouds .few {
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+}
+.few {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  align-self: flex-end;
+}
+.few * {
+  margin: 5px;
+}
+.few .p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.end {
+  font-family: "Ysabeau Infant", sans-serif;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.end .feels-degree {
+  color: gray;
+  font-size: 20px;
+}
+.end .content {
+  font-size: 14px;
+  color: gray;
+}
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 10px;
+  color: gray;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+.value-not {
+  font-family: sans-serif;
+}
+:placeholder-shown {
+  font-family: "Ysabeau Infant", sans-serif;
+}
